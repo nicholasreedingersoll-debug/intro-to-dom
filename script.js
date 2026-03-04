@@ -50,5 +50,14 @@ function handleClick() {
         levelDisplay.innerText = "Level 8";
         clickValue = 1000;
     }
-    
+    else if (clicks == 20000) {
+        alert("Congrats on reaching level 9");
+        levelDisplay.innerText = "Level 9";
+        clickValue = 1500;
+    }
+    else if (clicks == 3000) {
+        alert("Congrats on reaching level 10");
+        levelDisplay.innerText = "Level 10";
+        clickValue = 2000;
+    }
 }
